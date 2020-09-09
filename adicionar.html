@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adicionar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/imagens/zoo.png"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+        <script type="text/javascript" src="assets/js/animal.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form id="formCadastro" method="POST" onsubmit="return false;">
+                <br/>
+                <input type="hidden" name="comando" value="adicionar">
+                <div class="form-group">
+                    <input id="tipo" type="text" name="tipo" class="form-control form-control-md" placeholder="Tipo"/>
+                </div>
+                <div class="form-group">
+                    <input id="nome" type="text" name="nome" class="form-control form-control-md" placeholder="Nome" />
+                </div>
+                <div class="form-group">
+                    <input id="idade" type="number" name="idade" class="form-control form-control-md" placeholder="Idade"/>
+                </div>
+                <div class="btn">
+                    <button class="btn btn-primary" onclick="adicionar()">Cadastrar</button>
+                    <a href="home.html" class="btn btn-dark" >Voltar</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

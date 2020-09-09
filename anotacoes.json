@@ -1,0 +1,17 @@
+{ 
+	"nome":"Matheus",
+	"cidade":"Ferraz",
+	"animais": [
+        "galinha","cachorro","gato"
+    ], 
+    "lista de objetos": [
+        {
+            "nome":"objeto 1", 
+            "valor":"R$5,00"
+        },
+        {
+            "nome":"objeto 2",
+            "valor":"R$15,00"
+        }
+    ]
+}
